@@ -64,10 +64,10 @@ public class Pelicula{
         this.duracion = duracion;
     }
     public void mostrarInfo(){
-        System.out.println("la pelicula" +titulo+ "de" + director+ "dura"+duracion);
+        System.out.println("la pelicula" +titulo+ "del" + director+ "dura"+duracion);
     }
     public static void main(String[] args) {
-        Pelicula pelicula = new Pelicula("the holdovers","Alexander Payne",133);
+        Pelicula pelicula = new Pelicula("the holdovers ","Alexander Payne ",133);
     }
 }
 
