@@ -23,11 +23,13 @@ public  abstract class Vehiculo {
         for (Vehiculo v : vehiculos) {
             if (v != null) {
         v.mostrarDatos();
-        System.out.println("Patente: " + v.dueño);
-        System.out.println("Año: " + v.patente);
-        System.out.println("Dueño: " + v.año);
+        System.out.println("Patente: " + v.patente);
+        System.out.println("Año: " + v.año);
+        System.out.println("Dueño: " + v.dueño);
         System.out.println("Impuesto: $" + v.calcularImpuesto());
     }
+
 }
     }
+
 }
