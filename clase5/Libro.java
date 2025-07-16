@@ -35,39 +35,39 @@ public class Libro {
 }
 
 //tarea //
-public class Pelicula{
-    private String titulo;
-    private String director;
-    private int duracion;
+// public class Pelicula{
+//     private String titulo;
+//     private String director;
+//     private int duracion;
 
-    public Pelicula(String titulo,String director,int duracion){
-        this.titulo = titulo;
-        this.director = director;
-        this.duracion = duracion;
-    }
-    public String gettitulo(){
-        return titulo;
-    }
-    public void settitulo(String titulo){
-        this.titulo = titulo;
-    }
-    public String getdirector(){
-        return director;
-    }    
-    public void setdirector(String director){
-        this.director = director;
-    }
-    public int getduracion(){
-        return duracion;
-    }
-    public void setduracion(int duracion){
-        this.duracion = duracion;
-    }
-    public void mostrarInfo(){
-        System.out.println("la pelicula" +titulo+ "del" + director+ "dura"+duracion);
-    }
-    public static void main(String[] args) {
-        Pelicula pelicula = new Pelicula("the holdovers ","Alexander Payne ",133);
-    }
-}
+//     public Pelicula(String titulo,String director,int duracion){
+//         this.titulo = titulo;
+//         this.director = director;
+//         this.duracion = duracion;
+//     }
+//     public String gettitulo(){
+//         return titulo;
+//     }
+//     public void settitulo(String titulo){
+//         this.titulo = titulo;
+//     }
+//     public String getdirector(){
+//         return director;
+//     }    
+//     public void setdirector(String director){
+//         this.director = director;
+//     }
+//     public int getduracion(){
+//         return duracion;
+//     }
+//     public void setduracion(int duracion){
+//         this.duracion = duracion;
+//     }
+//     public void mostrarInfo(){
+//         System.out.println("la pelicula" +titulo+ "del" + director+ "dura"+duracion);
+//     }
+//     public static void main(String[] args) {
+//         Pelicula pelicula = new Pelicula("the holdovers ","Alexander Payne ",133);
+//     }
+// }
 

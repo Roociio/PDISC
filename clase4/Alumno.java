@@ -14,12 +14,12 @@ package clase4;
 
     
 } */
-public class Alumno
-{
-    private String nombre;
+// public class Alumno
+// {
+//     private String nombre;
 
-    public float Promedio( float nota1,float nota2){
-        float promedio = (nota1+nota2)/2;
-        return promedio;
-    }
-}
+//     public float Promedio( float nota1,float nota2){
+//         float promedio = (nota1+nota2)/2;
+//         return promedio;
+//     }
+// }
