@@ -1,0 +1,4 @@
+Lo que esta mal en estos endpoints es que
+-El GET es para obtenerLibros
+-El POST es para crearNuevoAlumno
+-Y DELETE es para eliminarUsuario
