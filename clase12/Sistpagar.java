@@ -1,4 +1,4 @@
-package clase12;
+
 
 public class Sistpagar{
     public static void main(String[] args) {

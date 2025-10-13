@@ -1,4 +1,4 @@
-package clase12;
+
 
 
 public class Otrometodo implements Pago{
